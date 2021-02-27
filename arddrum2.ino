@@ -1,5 +1,12 @@
 /*
-  samples distorting, seems to be switching
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  V2. Uses Switch to chose between two audio samples - samples distorting, seems to be switching
+
+  V1.  Uses sample imported into main code
+
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
    Example using a piezo to trigger an audio sample to play,
    and a knob to set the playback pitch,

@@ -1,4 +1,11 @@
 /*
+
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  V1.  Uses sample imported into main code - Distorts?
+
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
    Example using a piezo to trigger an audio sample to play,
    and a knob to set the playback pitch,
    with Mozzi sonification library.
