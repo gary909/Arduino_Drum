@@ -1,5 +1,4 @@
 /*
-
    _           _       _                  
   /_\  _ __ __| |_   _(_)_ __   ___       
  //_\\| '__/ _` | | | | | '_ \ / _ \      
@@ -24,19 +23,31 @@ _\ \ (_| | | | | | | |_) | | | | | | (_| |
 / ___/ (_| | (_| |                        
 \/    \__,_|\__,_|                        
                                           
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
+A BlogHoskins Monstrosity @ 2022
+https://bloghoskins.blogspot.com/
+
+Feel free to change/modify/update/break the code in any way you see fit.
+
+You'll need the Mozzi library installed.
+
+Most of this code is based on the Mozzi example sketch 'Piezo_SampleTrigger'
+
+_________________________________
+v1. Initial Release 25/06/2022
+
+*Remember you'll need to create 
+your own audio samples or drag 
+in the .h files into the arduino 
+sketch - and then update any name
+changes in the code.  Guide will
+be posted on the blog soon*
+_________________________________
 
 */
 
 #include <MozziGuts.h>
 #include <Sample.h> // Sample template
-//#include <samples/burroughs1_18649_int8.h> // a converted audio sample included in the Mozzi download
-//#include "blahblah4b_int8.h"
+
 #include "Kick8bit8hz.h"
 #include "Clap8bit.h"
 
@@ -57,7 +68,7 @@ boolean triggered = false;
 
 void setup(){
   //Serial.begin(9600); // for Teensy 3.1, beware printout can cause glitches
-  Serial.begin(115200); // set up the Serial output so we can look at the piezo values // set up the Serial output so we can look at the piezo values
+  //Serial.begin(115200); // set up the Serial output so we can look at the piezo values // set up the Serial output so we can look at the piezo values
   startMozzi(); // :))
 }
 
