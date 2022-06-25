@@ -1,4 +1,3 @@
-"Arduino_Drum" 
 
 An Arduino Sampling Drum Pad. 
 
