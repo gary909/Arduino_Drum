@@ -1,6 +1,9 @@
 
 An Arduino Sampling Drum Pad. 
 
+Full guide here;
+https://bloghoskins.blogspot.com/p/sampling-drum-pad.html
+
 Lastest Code Version: Arduino_Sampling_Drum_Pad_V1.ino  
 
 Remember:
